@@ -1,0 +1,78 @@
+body{
+    margin-top:250px;
+  }
+  #options {
+    margin: auto;
+    width:75%;
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+    
+  }
+  #options > input {
+    
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+  }
+  #buttons{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    background-color: DodgerBlue;
+    width:60%;
+  }
+  #buttons> input{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+  }
+  #calculatedBox{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+    width:75%;
+    margin:auto;
+  }
+  #calculatedBox> div{
+    margin-left:5px;
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+  }
+  #title{
+    font-size:25px;
+    height: 50px;
+    text-align:center;
+    background-color:DodgerBlue;
+    width:75%;
+    margin: auto;
+    padding-top:15px;
+  }
+  #next{
+    font-size:25px;
+    height: 50px;
+    text-align:center;
+    background-color:DodgerBlue;
+    width:75%;
+    margin: auto;
+    padding-top:15px;
+    margin-bottom:15px;
+  }
+  #finalScore{
+    margin:auto;
+    background-color:DodgerBlue;
+    font-size:25px;
+    text-align:center;
+    width:75%;
+  }

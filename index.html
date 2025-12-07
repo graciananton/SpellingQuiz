@@ -1,0 +1,55 @@
+<!doctype html5>
+<html>
+    <head>
+        <title>Project #1 - Spelling Quiz</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+      <p id="demo"></p>
+      <p id="firstArray"></p>
+      <p id="secondArray"></p>
+      <p id="thirdArray"></p>
+      <p id="counters"></p>
+      <p id="status"></p>
+      <p id="next"></p>
+      <p id="highBox"></p>
+      <p id="lowBox"></p>
+      <p id="mediumBox"></p>
+      <div id="big">
+        <div id="next"></div>
+      </div>
+      <div id="button">
+      <div id="reverse"></div>
+      <div id="demo5"></div>
+      <!--<input type="button" onclick="document.getElementById(chooseLevel(levelId))" value="button"></button>-->
+      <div id="buttons">
+        <input type="button" id="nextButton" value="Next" onclick="document.getElementById('next').innerHTML=groupFunctions();displayCounter();setTimeout( changeEvaluateCounter,5000);setTimeout(changeCounter,6000);countClicks()"></input>
+        <input type="button" id="evaluateButton" value="Evaluate" onclick="countClicks();limitClicks();evaluateLetter();updageImageBox()"></input>
+      </div>
+      </div>                                                                                                                                                                                                                                                                                                                                                                           
+      <div id="big2">                                                                                                                                       
+      <div id="title">Choose Level</div>
+      <div id="calculatedBox">
+        <div id="fraction"></div>
+        <div id="percent"></div>
+        <div id="number"></div>
+        <div id="statusImgBox"></div>
+        <div id="evaluationBox"></div>
+        <input type="button" id='restartButton' value="Restart Quiz" onclick="document.getElementById('demo5').innerHTML= refreshPage()"></input>
+      </div>
+      <div id="loopStatus"></div>
+      <div id="counter"></div>
+      <div id="choose"></div>
+      <p id="demo13"> </p>
+      <p id="demo10"></p>
+      <div id='id'></div>
+      <div id="choose"></div>
+      <div id="options">
+        <input type='button' value='Low Level' id='low' onclick="document.getElementById('lowBox').innerHTML=chooseLevel(1);enableWhenClicked();hideWhenClicked();countClicks()"></input>
+        <input type='button' value='Medium Level' id='med' onclick="document.getElementById('mediumBox').innerHTML=chooseLevel(2);enableWhenClicked();hideWhenClicked();countClicks()"></input>
+        <input type='button' value='High Level' id='high' onclick="document.getElementById('highBox').innerHTML=chooseLevel(3);enableWhenClicked();hideWhenClicked();countClicks()"></input>
+      </div>
+      <div id="finalScore"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
